@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block body %}
+    <h1>Admin Home</h1>
+
+    <ul>
+        <li><a href="{% url 'auth:logout' %}">Logout</a></li>
+    </ul>
+{% endblock body %}
